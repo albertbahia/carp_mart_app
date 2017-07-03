@@ -17,7 +17,7 @@
     <% @items.each do |item| %>
       <tr>
         <td><%= item.name %></td>
-        <td><%= item.picture_url %></td>
+				<td><%= image_tag(item.picture_url) %></td>
         <td><%= item.description %></td>
         <td><%= item.quantity_left %></td>
         <td><%= link_to 'Show', item %></td>
