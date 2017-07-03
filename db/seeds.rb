@@ -9,9 +9,9 @@
 # Create Item seeds with name, picture_url, description, quantity_left
 
 item_list = [
-	["alarms", "http://www.placeholder.com", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 10],
-	["bands", "http://www.placeholder.com", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 20],
-	["sleeves", "http://www.placeholder.com", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 15]
+	["alarms", "/images/alarms.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 10],
+	["bands", "/images/bands.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 20],
+	["sleeves", "/images/sleeves.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ex et elit feugiat varius non sit amet tellus. Maecenas.", 15]
 ]
 
 item_list.each do |name, picture_url, description, quantity_left| 
