@@ -15,5 +15,5 @@ item_list = [
 ]
 
 item_list.each do |name, picture_url, description, quantity_left| 
-	Item.create(name: name, picture_url: picture_url, description: decription, quantity_left: quantity_left)
+	Item.create(name: name, picture_url: picture_url, description: description, quantity_left: quantity_left)
 end
